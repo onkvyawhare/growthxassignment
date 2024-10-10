@@ -2,9 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const userRoutes = require('./routes/userRoutes');
-const adminRoutes = require('./routes/adminRoutes');
+const connectDB = require('./config/connectdb');
+const userRoutes = require('./routes/Userroutes');
+const adminRoutes = require('./routes/Adminroutes');
 
 dotenv.config();
 

@@ -1,6 +1,6 @@
-const { default: mongoose, Schema } = require("mongoose");
 
-const mangoose=requuire("mongoose");
+
+const mongoose=require("mongoose");
 
 
 const userSchema=new mongoose.Schema({
@@ -8,4 +8,4 @@ const userSchema=new mongoose.Schema({
     password: { type: String, required: true },
 })
 
-module.exports=mangoose.model("User",userSchema);
+module.exports=mongoose.model("User",userSchema);
